@@ -20,3 +20,8 @@ print(arr)
 print(1 / l)
 
 print(abs(np.array([1+2j, .2+4.6j, 3j, 1j, 7])))
+
+x = np.arange(5)
+y = np.zeros(10)
+np.power(2, x, out=y[::2])
+print(y)
