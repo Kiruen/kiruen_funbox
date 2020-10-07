@@ -20,3 +20,12 @@ print(people_data['name'])
 print(people_data[people_data['name'] != ''])
 
 print( np.dtype([('name', np.str_)]) )
+
+# 探究np.newaxis的用处
+print(X)
+a = X[:,:, np.newaxis]
+b = X[:, np.newaxis, :]
+c = X[np.newaxis, :, :]
+print(a)
+print(b)
+print(c)
