@@ -158,3 +158,4 @@ gen = looking_smaller()
 with gen as mirror:
     print("HAFUIHFUAS")
     print(mirror + (1 / 0))
+
