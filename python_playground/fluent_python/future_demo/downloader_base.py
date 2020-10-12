@@ -13,10 +13,13 @@ def save_file(img, filename):
         fp.write(img)
 
 def download(url):
-    print(f'downloading {url}')
-    data = requests.get(url)
-    print(f'Ok!')
-    return data.content
+    # print(f'downloading {url}')
+    resp = requests.get(url)
+    if resp.status_code == 404:
+        raise requests.exceptions.HTTPError('404 not found!')
+    # print(f'Ok!')
+    time.sleep(0.2)
+    return resp.content
 
 def download_many(count=5):
     url_base = 'https://www.tupianzj.com/meinv/20200914/{:0>6d}.html'
