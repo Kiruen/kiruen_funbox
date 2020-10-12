@@ -76,6 +76,7 @@ def get_max_shared_substr_retro(a, b, i=0, j=0, length=0):
 
 
 def get_max_shared_substr_dp(a, b, print_indexs=False):
+    """TODO:把最长公共子序列在原数组中标记出来"""
     m, n = len(a), len(b)
     max_sub_indexs = coll.deque()
     max_lens = np.zeros((m, n), dtype='i')
@@ -100,6 +101,9 @@ def get_max_shared_substr_dp(a, b, print_indexs=False):
 
 
 def get_max_inc_sub(arr):
+    """返回序列中最长的增序子序列，比如2, 9, 3, 6,5, 1, 7这样一组数字序列，
+    它的最长递增子序列就是2, 3, 5, 7，所以最长递增子序列的长度是4
+    """
     n = len(arr)
     last_num, length = 0, 0
     states = np.zeros((n, n))
@@ -107,6 +111,58 @@ def get_max_inc_sub(arr):
         for j in range(n):
             if arr[i] > last_num:
                 states[i, length]
+
+# @lru_cache(maxsize=4096)
+# lru_cache底层维护了一个：[arg_tuple]→[value]的映射，但是访问不到啊，只能求个方案数量，但不知道方案具体是啥啊
+scheme_que = []
+schemes = []
+def get_coin_scheme_types_memo(coins: tuple, i: int, total: int, verbose :bool=False) -> int:
+    """
+    给定金币面值和总金额，找出有多少凑整方案（使用回溯+备忘录）
+    思路：面额逆序排序，从左边开始试，每个面额尝试不同的个数，再加上
+    """
+    res = False  # 指示该方案是否能正好凑足整
+    if total == 0:
+        # sys.stdout.write(f'{schemes}')
+        schemes.append(scheme_que)
+        if verbose:
+            print(scheme_que)
+        res = True
+    else:
+        if i == len(coins):
+            res = total == 0
+        else:
+            count = 0
+            coin = coins[i]
+            while count * coin <= total:  # 有个增强画面感的技巧：假如此时在试中间那个金币，你想象向后面扔回旋镖，回旋镖回来时带个OK/NO，再一次向后扔
+                if count > 0:
+                    scheme_que.append((coin, count))
+
+                isok = get_coin_scheme_types_memo(coins, i + 1, total - coin * count)  # OK向上冒泡，传播方案合格的消息
+                res += isok
+
+                if count > 0:
+                    scheme_que.pop()
+                count += 1
+    return res
+
+
+def get_fewest_coin_scheme_dp(coins: list, i: int, total: int) -> int:
+    """
+    给定金币面值和总金额，找出金币数最少的方案（使用dp）
+    """
+    pass
+
+
+def fewest_coin_count_memo(coins: list, index: int, total: int) -> int:
+    """
+    给定金币面值和总金额，找出金币数最少的组合（使用回溯+备忘录）
+    """
+    max_steps = total // min(coins)
+    states = np.zeros((total, len(coins)), dtype='i')
+    for i in range(max_steps):
+        for j in range(total):
+            pass
 
 # 这TM就是棋盘那题嘛
 MAX_WEIGHT = 10
@@ -141,3 +197,7 @@ if __name__ == '__main__':
     a = 'abcdef'
     b = 'ace'
     print(get_max_shared_substr_dp(a, b, True))
+
+    # 2,3,5,7,11,13
+    scheme_count = get_coin_scheme_types_memo((13, 11, 7, 5, 3, 2), 0, 200)
+    print(scheme_count, len(schemes) == scheme_count)
