@@ -201,3 +201,4 @@ if __name__ == '__main__':
     # 2,3,5,7,11,13
     scheme_count = get_coin_scheme_types_memo((13, 11, 7, 5, 3, 2), 0, 200)
     print(scheme_count, len(schemes) == scheme_count)
+

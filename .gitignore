@@ -1,2 +1,5 @@
 # no test.txt
 /**/test*.txt
+
+# vs project configs
+\**\.vs
