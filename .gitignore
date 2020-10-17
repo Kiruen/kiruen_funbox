@@ -2,4 +2,11 @@
 /**/test*.txt
 
 # vs project configs
-\**\.vs
+/**/.vs
+
+# vs project temps
+/**/obj
+/**/bin
+
+# idea project
+/**/.idea

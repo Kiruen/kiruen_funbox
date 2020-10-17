@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff504a2f-8e5a-4a14-85d4-e4bd918a6eb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/.vs/AsyncLab/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/.vs/AsyncLab/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/bin/Debug/netcoreapp3.1/AsyncLab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/bin/Debug/netcoreapp3.1/AsyncLab.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/bin/Debug/netcoreapp3.1/AsyncLab.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/bin/Debug/netcoreapp3.1/AsyncLab.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/AsyncLab.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/AsyncLab.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/Debug/netcoreapp3.1/AsyncLab.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/Debug/netcoreapp3.1/AsyncLab.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/Debug/netcoreapp3.1/AsyncLab.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/Debug/netcoreapp3.1/AsyncLab.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/Debug/netcoreapp3.1/AsyncLab.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/Debug/netcoreapp3.1/AsyncLab.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/Debug/netcoreapp3.1/AsyncLab.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/Debug/netcoreapp3.1/AsyncLab.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/Debug/netcoreapp3.1/AsyncLab.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/Debug/netcoreapp3.1/AsyncLab.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/Debug/netcoreapp3.1/AsyncLab.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/Debug/netcoreapp3.1/AsyncLab.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../csharp_playground/async_lab/AsyncLab/AsyncLab/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp_primer.py" beforeDir="false" afterPath="$PROJECT_DIR$/dp_primer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/line_counter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

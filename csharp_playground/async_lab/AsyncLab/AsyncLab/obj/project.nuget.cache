@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rbsFCCt4uDTR4Usmd2LqyquQlyTmOLBL393ldzVhsRtALU41E+3jZONnfF1AVqqn1nEfpQshcjMqYrUmktQHCg==",
+  "dgSpecHash": "BguPKyVMGNs2VkdxhKRI2jmrFZroxiG7DMEhYJ5HwfJwYD5FnOq6FLNDhf/uC47nrbIFLFtcI2qoVcyGopCIeA==",
   "success": true,
-  "projectFilePath": "G:\\code_repo\\vs2019\\async_lab\\AsyncLab\\AsyncLab\\AsyncLab.csproj",
+  "projectFilePath": "G:\\code_repo\\fun\\kiruen_funbox\\csharp_playground\\async_lab\\AsyncLab\\AsyncLab\\AsyncLab.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

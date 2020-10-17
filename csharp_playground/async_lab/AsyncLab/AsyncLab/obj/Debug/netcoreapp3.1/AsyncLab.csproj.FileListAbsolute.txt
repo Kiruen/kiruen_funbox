@@ -11,3 +11,16 @@ G:\code_repo\vs2019\async_lab\AsyncLab\AsyncLab\obj\Debug\netcoreapp3.1\AsyncLab
 G:\code_repo\vs2019\async_lab\AsyncLab\AsyncLab\obj\Debug\netcoreapp3.1\AsyncLab.dll
 G:\code_repo\vs2019\async_lab\AsyncLab\AsyncLab\obj\Debug\netcoreapp3.1\AsyncLab.pdb
 G:\code_repo\vs2019\async_lab\AsyncLab\AsyncLab\obj\Debug\netcoreapp3.1\AsyncLab.genruntimeconfig.cache
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\bin\Debug\netcoreapp3.1\AsyncLab.exe
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\bin\Debug\netcoreapp3.1\AsyncLab.deps.json
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\bin\Debug\netcoreapp3.1\AsyncLab.runtimeconfig.json
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\bin\Debug\netcoreapp3.1\AsyncLab.runtimeconfig.dev.json
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\bin\Debug\netcoreapp3.1\AsyncLab.dll
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\bin\Debug\netcoreapp3.1\AsyncLab.pdb
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\obj\Debug\netcoreapp3.1\AsyncLab.csprojAssemblyReference.cache
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\obj\Debug\netcoreapp3.1\AsyncLab.AssemblyInfoInputs.cache
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\obj\Debug\netcoreapp3.1\AsyncLab.AssemblyInfo.cs
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\obj\Debug\netcoreapp3.1\AsyncLab.csproj.CoreCompileInputs.cache
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\obj\Debug\netcoreapp3.1\AsyncLab.dll
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\obj\Debug\netcoreapp3.1\AsyncLab.pdb
+G:\code_repo\fun\kiruen_funbox\csharp_playground\async_lab\AsyncLab\AsyncLab\obj\Debug\netcoreapp3.1\AsyncLab.genruntimeconfig.cache

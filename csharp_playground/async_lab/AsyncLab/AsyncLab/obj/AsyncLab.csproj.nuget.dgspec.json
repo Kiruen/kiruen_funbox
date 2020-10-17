@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\code_repo\\vs2019\\async_lab\\AsyncLab\\AsyncLab\\AsyncLab.csproj": {}
+    "G:\\code_repo\\fun\\kiruen_funbox\\csharp_playground\\async_lab\\AsyncLab\\AsyncLab\\AsyncLab.csproj": {}
   },
   "projects": {
-    "G:\\code_repo\\vs2019\\async_lab\\AsyncLab\\AsyncLab\\AsyncLab.csproj": {
+    "G:\\code_repo\\fun\\kiruen_funbox\\csharp_playground\\async_lab\\AsyncLab\\AsyncLab\\AsyncLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\code_repo\\vs2019\\async_lab\\AsyncLab\\AsyncLab\\AsyncLab.csproj",
+        "projectUniqueName": "G:\\code_repo\\fun\\kiruen_funbox\\csharp_playground\\async_lab\\AsyncLab\\AsyncLab\\AsyncLab.csproj",
         "projectName": "AsyncLab",
-        "projectPath": "G:\\code_repo\\vs2019\\async_lab\\AsyncLab\\AsyncLab\\AsyncLab.csproj",
+        "projectPath": "G:\\code_repo\\fun\\kiruen_funbox\\csharp_playground\\async_lab\\AsyncLab\\AsyncLab\\AsyncLab.csproj",
         "packagesPath": "C:\\Users\\39237\\.nuget\\packages\\",
-        "outputPath": "G:\\code_repo\\vs2019\\async_lab\\AsyncLab\\AsyncLab\\obj\\",
+        "outputPath": "G:\\code_repo\\fun\\kiruen_funbox\\csharp_playground\\async_lab\\AsyncLab\\AsyncLab\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\39237\\AppData\\Roaming\\NuGet\\NuGet.Config",
