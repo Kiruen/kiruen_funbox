@@ -36,3 +36,15 @@ with open('test', 'a+') as fp:
     # raise Exception('sadshdu')
     sys.stdin = fp
     print(input("输入值为"))
+
+
+try:
+    pass
+    raise {1,2,3}
+except Exception as e:
+    pass
+    print(e)
+else:
+    pass
+finally:
+    pass

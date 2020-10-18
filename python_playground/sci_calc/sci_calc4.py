@@ -64,3 +64,26 @@ print(df['pop'])
 print(df['Texas':'Florida'])
 
 print(df[df.density > 100])
+
+print("人口的开方：")
+print(np.sqrt(df['pop']))
+print("人口的圆面积：")
+print(np.pi * df['pop'] ** 2)
+
+
+area = pd.Series({'Texas': 695662,'New York': 141297,
+                'Florida': 170312, 'Illinois': 149995})
+pop = pd.Series({'California': 38332521, 'Texas': 26448193,
+                         'New York': 19651127,})
+print(area / pop)
+print(area.index | pop.index)
+print(area.add(pop, fill_value=0))
+
+
+A = pd.DataFrame(np.random.randint(0, 20, (5, 2)), columns=list('AB'))
+B = pd.DataFrame(np.random.randint(0, 20, (7, 3)), columns=list('BAC'))
+# B = pd.DataFrame(np.random.randint(0, 20, (3, 3)), columns=list('BAC'))  # 为什么有的地方不填充？？因为A的广播，只会向B大 维度 扩展
+# print(A.add(B, fill_value=A.stack().mean()))
+print(A)
+print(B)
+print(A.add(B, fill_value=A.stack().mean()))

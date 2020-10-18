@@ -59,11 +59,11 @@ namespace AsyncLab
             }
         }
 
-        static async Task Main(string[] args)
+        static async Task Foo1(string[] args)
         {
             Console.WriteLine($"TID: {Thread.CurrentThread.ManagedThreadId}");
             var tasks = new List<Task<double>>();
-            for (int i = 200; i < 1000; i+=100)
+            for (int i = 200; i < 1000; i += 100)
             {
                 //Task.Run<int>(DoSomethingAndWait);
                 tasks.Add(DoSomethingAndWait(i, Math.Pow(i, 2)));  //已经开始跑了
@@ -85,9 +85,14 @@ namespace AsyncLab
             await taske.GetMyAwaiter(); //taske.GetMyAwaiter().GetResult();
             //await taske; //Result awaiter.GetReult 都一样，但task.wait会抛出aggregate
             */
-            
+
             //Console.WriteLine(ReportProgress.ExecOneTask()); 这个
             Console.WriteLine(await ReportProgress.ExecOneTask());
+        }
+
+        static async Task Main(string[] args)
+        {
+
 
             Console.WriteLine("OK");
             Console.ReadLine();
