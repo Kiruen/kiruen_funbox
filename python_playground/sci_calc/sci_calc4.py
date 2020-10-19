@@ -86,4 +86,34 @@ B = pd.DataFrame(np.random.randint(0, 20, (7, 3)), columns=list('BAC'))
 # print(A.add(B, fill_value=A.stack().mean()))
 print(A)
 print(B)
+print(A + B)
+print(A.add(B, fill_value=1000000))  # 只是填充A的扩充值，并不是填充结果
 print(A.add(B, fill_value=A.stack().mean()))
+
+A = np.random.randint(0, 20, (10, 5))
+df = pd.DataFrame(A, columns=list('ABCDE'))
+print(df - df.iloc[0])
+print(df.subtract(df['C'], axis=0))
+half_row = df.iloc[0, ::2]
+res = df - half_row
+# print(res.iloc[0][res.notnull()])
+
+
+vals = np.arange(10E3, dtype=object)
+print(vals)
+vals = np.array([1, np.nan, 3])
+print(vals.dtype)
+print(sum(vals), np.nansum(vals))
+
+sr = pd.Series([1, None, 2, np.nan])
+print(sr)
+print(pd.Series([1, None, 2, pd.NA]))
+sr = pd.Series([1, True, 2, np.nan])
+print(sr[sr.notnull()])
+print(sr.dropna() == sr[sr.notnull()])
+
+
+df = pd.DataFrame([[1, np.nan, 2],
+                  [1, 2, 4],
+                  [np.nan, 4, 2],])
+print(df.dropna(axis='rows'), df.dropna(axis='columns'))

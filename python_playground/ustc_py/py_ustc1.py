@@ -27,24 +27,26 @@ print(d1)
 my_dict = dict([('kiruen', 1), (11, 'kiruen')])
 print(my_dict)
 
-import sys
-with open('test', 'a+') as fp:
-    sys.stdout = fp
-    sys.stderr = fp
-    sys.stdout.write("asfafffs")
-    sys.stdout.flush()
-    # raise Exception('sadshdu')
-    sys.stdin = fp
-    print(input("输入值为"))
+# try:
+#     import sys
+#
+#     with open('test', 'a+') as fp:
+#         sys.stdout = fp
+#         sys.stderr = fp
+#         sys.stdout.write("asfafffs")
+#         sys.stdout.flush()
+#         # raise Exception('sadshdu')
+#         sys.stdin = fp
+#         print(input("输入值为"))
+#     raise {1,2,3}
+# except Exception as e:
+#     pass
+#     print(e)
+# else:
+#     pass
+# finally:
+#     pass
 
-
-try:
-    pass
-    raise {1,2,3}
-except Exception as e:
-    pass
-    print(e)
-else:
-    pass
-finally:
-    pass
+import keyword
+print(keyword.kwlist)
+print([1,2,3,4])
