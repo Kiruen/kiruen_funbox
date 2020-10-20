@@ -5,11 +5,13 @@ import (
  "io"
  "io/ioutil"
  "net/http"
+ "strings"
  "time"
 )
 
-func main() {
+func main3() {
  url_list := []string{"https://www.baidu.com", "https://www.qq.com"} //, "http://gopl.io"
+ fmt.Println(strings.Join(url_list, ", "))
  start := time.Now()
  ch := make(chan string)
  for _, url := range url_list {

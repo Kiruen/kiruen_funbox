@@ -1,6 +1,7 @@
 package main
 
 import (
+ "fmt"
  "image"
  "image/color"
  "image/gif"
@@ -11,16 +12,17 @@ import (
 )
 
 const (
- BLACK_INDEX = 0
- WHITE_INDEX = 1
+ WHITE_INDEX= 0
+ BLACK_INDEX = 1
  )
-var palette = []color.Color{color.Black, color.White}
+var palette = []color.Color{color.White, color.RGBA{200,15,51,1}}
 
-func main() {
+func main1() {
  //fmt.Println(WHITE_INDEX + 1)
  //f, _ := os.Open("haha.gif")
  //lissajous(os.Stdout)
- lissajous(os.Stdout)
+ f, _ := os.OpenFile("haha.gif", os.O_WRONLY, 066)
+ lissajous(f)
 
 }
 
@@ -32,7 +34,7 @@ func lissajous(out io.Writer) {
   nframes = 64    // number of animation frames
   delay   = 8     // delay between frames in 10ms units
  )
- freq := rand.Float64() * 3
+ freq := rand.Float64() * 3.0
  anim := gif.GIF{LoopCount:nframes}
  phase := 0.0
  for i := 0; i < nframes; i++ {
@@ -47,5 +49,8 @@ func lissajous(out io.Writer) {
   anim.Delay = append(anim.Delay, delay)
   anim.Image = append(anim.Image, img)
  }
- _ = gif.EncodeAll(out, &anim)
+ err := gif.EncodeAll(out, &anim)
+ if err != nil {
+  fmt.Println(err)
+ }
 }

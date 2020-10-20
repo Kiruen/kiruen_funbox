@@ -9,7 +9,7 @@ import (
  "strings"
 )
 
-func main() {
+func main0() {
  a := 1
  var s1, s2 string
  s1, s2 = "_s1_", "_s2_"

@@ -7,7 +7,7 @@ import (
  "os"
 )
 
-func main() {
+func main2() {
  url_list := []string{"https://www.baidu.com", "https://www.qq.com", "http://gopl.io"}
  for _, url := range url_list {
   resp, err := http.Get(url)
