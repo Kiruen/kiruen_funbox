@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ff504a2f-8e5a-4a14-85d4-e4bd918a6eb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go_playground/hello/html_fetcher_coro.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go_playground/hello/html_fetcher_coro.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_playground/ustc_py/py_ustc2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/ustc_py/py_ustc2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other.py" beforeDir="false" afterPath="$PROJECT_DIR$/other.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,28 +38,7 @@
       <recent name="G:\code_repo\fun\kiruen_funbox\funalgo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for other.MyTest.test_level5">
-    <configuration name="line_counter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="funalgo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/line_counter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for other.MyTest">
     <configuration name="nk_primer2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="funalgo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +58,20 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for other.MyTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="funalgo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;other.MyTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for other.MyTest.test_level2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -125,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for other.MyTest" />
         <item itemvalue="Python tests.Unittests for other.MyTest.test_level5" />
         <item itemvalue="Python tests.Unittests for other.MyTest.test_level3" />
         <item itemvalue="Python tests.Unittests for other.MyTest.test_level2" />
         <item itemvalue="Python.nk_primer2" />
-        <item itemvalue="Python.line_counter" />
       </list>
     </recent_temporary>
   </component>
@@ -151,34 +144,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="403" height="457" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1602767361914" />
-    <state width="1579" height="143" key="GridCell.Tab.0.bottom" timestamp="1603201219213">
+    <state width="1579" height="143" key="GridCell.Tab.0.bottom" timestamp="1603203792438">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1515" height="108" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603013503175" />
-    <state width="1579" height="143" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603201219213" />
-    <state width="1579" height="143" key="GridCell.Tab.0.center" timestamp="1603201219212">
+    <state width="1579" height="143" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1603203792438" />
+    <state width="1579" height="143" key="GridCell.Tab.0.center" timestamp="1603203792437">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1515" height="108" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603013503175" />
-    <state width="1579" height="143" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1603201219212" />
-    <state width="1579" height="143" key="GridCell.Tab.0.left" timestamp="1603201219211">
+    <state width="1579" height="143" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1603203792437" />
+    <state width="1579" height="143" key="GridCell.Tab.0.left" timestamp="1603203792437">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1515" height="108" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603013503175" />
-    <state width="1579" height="143" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1603201219211" />
-    <state width="1579" height="143" key="GridCell.Tab.0.right" timestamp="1603201219212">
+    <state width="1579" height="143" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1603203792437" />
+    <state width="1579" height="143" key="GridCell.Tab.0.right" timestamp="1603203792438">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1515" height="108" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603013503175" />
-    <state width="1579" height="143" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1603201219212" />
+    <state width="1579" height="143" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1603203792438" />
     <state width="1515" height="198" key="GridCell.Tab.1.bottom" timestamp="1602816006376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -111,9 +111,18 @@ print(pd.Series([1, None, 2, pd.NA]))
 sr = pd.Series([1, True, 2, np.nan])
 print(sr[sr.notnull()])
 print(sr.dropna() == sr[sr.notnull()])
+print('-' * 64)
 
 
-df = pd.DataFrame([[1, np.nan, 2],
+df = pd.DataFrame([[np.nan, np.nan, np.nan],
                   [1, 2, 4],
                   [np.nan, 4, 2],])
-print(df.dropna(axis='rows'), df.dropna(axis='columns'))
+print(df.dropna(axis='rows', how='all'))
+print('-' * 64)
+print(df.dropna(axis='columns', thresh=2))
+
+sr = pd.Series([1, None, 2, None, 3], index=list('abcde'))
+print(sr.fillna(method='ffill'))
+print(sr.fillna(method='bfill'))
+
+print(df.fillna(method='bfill', axis=0))

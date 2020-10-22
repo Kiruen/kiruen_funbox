@@ -2,10 +2,12 @@ import collections as coll
 import sys
 import unittest
 
-#汉诺塔问题，从柱子a移到柱子b。抽象的过程很重要！抽象得好，问题就格外简单了。
-def hanno(cylinders: list, source: int, target: int, transfer: int, level: int=2):
+
+# 汉诺塔问题，从柱子a移到柱子b。抽象的过程很重要！抽象得好，问题就格外简单了。
+def hanno(cylinders: list, source: int, target: int, transfer: int, level: int = 2):
     if not hasattr(hanno, 'steps_memo') or not hanno.steps_memo:
         setattr(hanno, 'steps_memo', [])
+
     def move(from_, to_):
         old_val = cylinders[from_].pop()
         cylinders[to_].append(old_val)
@@ -23,22 +25,24 @@ def hanno(cylinders: list, source: int, target: int, transfer: int, level: int=2
         move(source, target)
         hanno(cylinders, transfer, target, source, level - 1)
 
+
 class MyTest(unittest.TestCase):
     def test_level2(self):
-        cylinders = [[3,2,1],[],[]]
+        cylinders = [[3, 2, 1], [], []]
         hanno(cylinders, 0, 2, 1, level=2)
-        self.assertEqual(cylinders, [[3],[],[2,1]])
+        self.assertEqual(cylinders, [[3], [], [2, 1]])
 
     def test_level3(self):
         cylinders = [[3, 2, 1], [], []]
         hanno.steps_memo = None
-        hanno(cylinders, 0, 2, 1, level=3)
+        hanno(cylinders, 0, 1, 2, level=3)
         print(hanno.steps_memo)
-        self.assertEqual(cylinders, [[], [], [3, 2, 1]])
+        self.assertEqual(cylinders, [[], [3, 2, 1], []])
 
     def test_level5(self):
-        cylinders = [[5, 4, 3, 2, 1], [], []]
+        cylinders = [[6, 5, 4, 3, 2, 1], [], []]
         hanno.steps_memo = None
-        hanno(cylinders, 0, 2, 1, level=5)
+        hanno(cylinders, 0, 2, 1, level=6)
         print(hanno.steps_memo)
-        self.assertEqual(cylinders, [[], [], [5, 4, 3, 2, 1]])
+        self.assertEqual(cylinders, [[], [], [6, 5, 4, 3, 2, 1]])
+        self.assertEqual(len(hanno.steps_memo), 63)
