@@ -29,6 +29,8 @@ const (
 	PB
 )
 
+type Students map[string]int
+
 func main() {
 	var li list.List
 	li.PushFront(1)
@@ -78,11 +80,54 @@ func main() {
 	zero(&arr)
 	fmt.Println(arr)
 
+	var stus1 = Students { //map[string]int
+		"kiruen":1231,
+		"ky":456,
+		"zky":789,
+		"Bob":1231,
+		"Nolan":1241,
+	}
+
+	var stus2 = Students {
+		"kiruen":1231,
+		"ky":456,
+		"zky":789,
+		"Bob":1231,
+		"Nolan":1241,
+	}
+
+	for name, age := range stus1 {
+		fmt.Println(name, age)
+	}
+
+	fmt.Println("两个学生名单是否相等？", stus1.map_equal(stus2))
+
+	//val := interface{}(arr).(int)
+	//fmt.Println(val)
+	fmt.Println(get_complex_map())
 
 	var num_ int
 	var str_ string
 	nInputStrs, _ := fmt.Scanf("%d,%s", &num_, &str_)
 	fmt.Println(nInputStrs, num_, str_)
+}
+
+func get_complex_map() map[string]map[string]int {
+	var cmap = make(map[string]map[string]int)
+	cmap["kiruen"] = make(map[string]int)
+	cmap["ky"] = make(map[string]int)
+	cmap["kiruen"]["math"] = 100
+	cmap["ky"]["english"] = 100
+	return cmap
+}
+
+func (m1 Students) map_equal(m2 Students) bool {
+	for k, xv := range m1 {
+		if yv, ok := m2[k]; !ok || yv != xv {
+			return false
+		}
+	}
+	return true
 }
 
 func zero(ptr *[32]int) {

@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ff504a2f-8e5a-4a14-85d4-e4bd918a6eb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other.py" beforeDir="false" afterPath="$PROJECT_DIR$/other.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go_playground/src/chap02/test2.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go_playground/src/chap02/test2.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
