@@ -106,10 +106,46 @@ func main() {
 	//fmt.Println(val)
 	fmt.Println(get_complex_map())
 
-	var num_ int
-	var str_ string
-	nInputStrs, _ := fmt.Scanf("%d,%s", &num_, &str_)
-	fmt.Println(nInputStrs, num_, str_)
+	var nums = []int{2,3,4}
+	var new_arr = make([]int, 3, 128) // var new_arr []int
+	copy(new_arr, nums)
+	fmt.Println(new_arr)
+	_ = append(new_arr, 10, 20, 30)
+	fmt.Println(new_arr)
+	new_arr = append(new_arr, 10, 20, 30)
+	fmt.Println(new_arr)
+	new_arr = append(new_arr, new_arr...)
+	fmt.Println(new_arr)
+
+	var idcard = foo_idCard(&idCard{name: "kiruen"})
+	foo_idCard(idcard)
+	fmt.Println(idcard)
+
+	var w = worker{100, *idcard}
+	fmt.Println(w)
+
+	//var num_ int
+	//var str_ string
+	//nInputStrs, _ := fmt.Scanf("%d,%s", &num_, &str_)
+	//fmt.Println(nInputStrs, num_, str_)
+}
+
+
+type idCard struct {
+	name string
+	age int
+	id int
+}
+
+type worker struct {
+	workAge int
+	idCard
+}
+
+func foo_idCard(w *idCard) *idCard {
+	fmt.Println(w.name)
+	w.name += "!"
+	return w
 }
 
 func get_complex_map() map[string]map[string]int {

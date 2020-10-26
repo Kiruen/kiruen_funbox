@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ff504a2f-8e5a-4a14-85d4-e4bd918a6eb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go_playground/src/chap02/test2.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go_playground/src/chap02/test2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other.py" beforeDir="false" afterPath="$PROJECT_DIR$/hanno.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +54,7 @@
       <recent name="G:\code_repo\fun\kiruen_funbox\funalgo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for other.MyTest">
+  <component name="RunManager" selected="Python tests.Unittests for hanno.MyTest">
     <configuration name="nk_primer2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="funalgo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for other.MyTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for hanno.MyTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="funalgo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,11 +86,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;other.MyTest&quot;" />
+      <option name="_new_target" value="&quot;hanno.MyTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for other.MyTest.test_level2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for hanno.MyTest.test_level2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="funalgo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,11 +100,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;other.MyTest.test_level2&quot;" />
+      <option name="_new_target" value="&quot;hanno.MyTest.test_level2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for other.MyTest.test_level3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for hanno.MyTest.test_level3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="funalgo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +114,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;other.MyTest.test_level3&quot;" />
+      <option name="_new_target" value="&quot;hanno.MyTest.test_level3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for other.MyTest.test_level5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for hanno.MyTest.test_level5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="funalgo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,16 +128,16 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;other.MyTest.test_level5&quot;" />
+      <option name="_new_target" value="&quot;hanno.MyTest.test_level5&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for other.MyTest" />
-        <item itemvalue="Python tests.Unittests for other.MyTest.test_level5" />
-        <item itemvalue="Python tests.Unittests for other.MyTest.test_level3" />
-        <item itemvalue="Python tests.Unittests for other.MyTest.test_level2" />
+        <item itemvalue="Python tests.Unittests for hanno.MyTest" />
+        <item itemvalue="Python tests.Unittests for hanno.MyTest.test_level5" />
+        <item itemvalue="Python tests.Unittests for hanno.MyTest.test_level3" />
+        <item itemvalue="Python tests.Unittests for hanno.MyTest.test_level2" />
         <item itemvalue="Python.nk_primer2" />
       </list>
     </recent_temporary>
@@ -137,6 +154,17 @@
       <updated>1602314874703</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state width="403" height="457" key="DebuggerActiveHint" timestamp="1602767361914">
