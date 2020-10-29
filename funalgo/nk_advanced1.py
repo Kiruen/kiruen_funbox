@@ -21,7 +21,6 @@ def get_next(arr):
 
 
 class BTree(object):
-
     # 初始化
     def __init__(self, data, left=None, right=None):
         self.data = data  # 数据域
@@ -39,7 +38,7 @@ class BTree(object):
         text += self.right.graph(level + 1) if self.right else "{}#\n".format("\t" * (level + 1))
         return text
 
-    def serilize(self):
+    def serialize(self):
         """二叉树的序列化(扁平化)，实质是补全/满二叉化。
         这样能唯一表示一颗二叉树，且先序(中后都行)遍历就能还原(反序列化)回来
         """
