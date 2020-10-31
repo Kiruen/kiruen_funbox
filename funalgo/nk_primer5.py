@@ -102,6 +102,7 @@ class BTree(BTreeSerializationMixin):
     def is_empty(self):
         return self.data == '#'
 
+
     def __repr__(self):
         return self.graph()
 
@@ -177,7 +178,6 @@ if __name__ == '__main__':
     btr = BTree(8, BTree(9))
     bt7 = BTree(7, BTree(1, btl, btl), BTree(5, BTree(1, BTree(1)), BTree(7)))
     print(bt7.count(), btr.count(), btl.count())
-
 
     # que = deque()
     # que.append(1)
