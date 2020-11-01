@@ -9,9 +9,10 @@ type ProofOfWork struct {
 	target *big.Int
 }
 
+//生成一个新的POW器
 func NewProofOfWork(b *Block) *ProofOfWork {
 	target := big.NewInt(1)
-	target.Lsh(target, uint(256-targetBits))
+	target.Lsh(target, uint(256 - targetBits))
 
 	pow := &ProofOfWork{b, target}
 
