@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff504a2f-8e5a-4a14-85d4-e4bd918a6eb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../go_playground/src/myblock/myblock/PoW.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_playground/src/myblock/myblock/block.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go_playground/src/myblock/block/PoW.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go_playground/src/myblock/block/block.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go_playground/src/myblock/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go_playground/src/myblock/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go_playground/src/myblock/src.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,28 @@
       <recent name="G:\code_repo\fun\kiruen_funbox\funalgo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nk_advanced4">
+  <component name="RunManager" selected="Python.hm_2_2">
+    <configuration name="hm_2_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="funalgo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/java" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/java/hm_2_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="nk_advanced2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="funalgo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,27 +153,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for hanno.MyTest.test_level5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="funalgo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;hanno.MyTest.test_level5&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hm_2_2" />
         <item itemvalue="Python.nk_advanced4" />
         <item itemvalue="Python.nk_advanced2" />
         <item itemvalue="Python.nk_primer5" />
         <item itemvalue="Python tests.Unittests for hanno.MyTest" />
-        <item itemvalue="Python tests.Unittests for hanno.MyTest.test_level5" />
       </list>
     </recent_temporary>
   </component>
@@ -193,34 +194,34 @@
     </state>
     <state width="403" height="457" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1602767361914" />
     <state width="1020" height="477" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1603956801016" />
-    <state width="1579" height="174" key="GridCell.Tab.0.bottom" timestamp="1604586157744">
+    <state width="1579" height="174" key="GridCell.Tab.0.bottom" timestamp="1604639727921">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1579" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603981848346" />
-    <state width="1579" height="174" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604586157744" />
-    <state width="1579" height="174" key="GridCell.Tab.0.center" timestamp="1604586157743">
+    <state width="1579" height="174" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604639727921" />
+    <state width="1579" height="174" key="GridCell.Tab.0.center" timestamp="1604639727920">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1579" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603981848345" />
-    <state width="1579" height="174" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604586157743" />
-    <state width="1579" height="174" key="GridCell.Tab.0.left" timestamp="1604586157743">
+    <state width="1579" height="174" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604639727920" />
+    <state width="1579" height="174" key="GridCell.Tab.0.left" timestamp="1604639727920">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1579" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603981848343" />
-    <state width="1579" height="174" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604586157743" />
-    <state width="1579" height="174" key="GridCell.Tab.0.right" timestamp="1604586157743">
+    <state width="1579" height="174" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604639727920" />
+    <state width="1579" height="174" key="GridCell.Tab.0.right" timestamp="1604639727921">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1579" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603981848346" />
-    <state width="1579" height="174" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604586157743" />
+    <state width="1579" height="174" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604639727921" />
     <state width="1579" height="209" key="GridCell.Tab.1.bottom" timestamp="1603981848346">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
