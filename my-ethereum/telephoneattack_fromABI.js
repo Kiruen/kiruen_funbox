@@ -1,0 +1,2 @@
+var ABI=[{"constant":false,"inputs":[{"name":"_victim","type":"address"},{"name":"_owner","type":"address"}],"name":"attack","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}];
+var addr = "0xecd6e3b379bbfe8a5c2ef7d65734e41f98843f30";

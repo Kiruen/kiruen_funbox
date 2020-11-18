@@ -1,0 +1,3 @@
+geth --datadir .\data0 --networkid 1008 --ipcdisable --port 30303 --rpcport 8301 console
+
+geth --datadir .\data1 --networkid 1008 --ipcdisable --port 30300 --rpcport 8306 --bootnodes "enode://8e6f9837c9a3e931a5a9c03350c96b572aa66ca7a1a21368fee9f1b74a8fefcbc3a1274459ca32b91ee9c6cf4c2b2d190fb7d78dc0ea6103c8eae9ef9e386e23@127.0.0.1:30303" console

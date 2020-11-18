@@ -1,0 +1,2 @@
+var addr = "0xe56bc41b241a9b2e6a0f73e6c4654ac7d0df7c6d";
+var ABI = [{"constant":false,"inputs":[{"name":"_owner","type":"address"}],"name":"changeowner","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"}];

@@ -11,3 +11,9 @@ l = [1,2,3] * 10
 random.shuffle(l)
 print(l)
 print(l[random.randint(0, 30)])
+
+code = """
+print(1)
+"""
+print(type(compile(code, "<string>", "exec")))
+print(slice)
