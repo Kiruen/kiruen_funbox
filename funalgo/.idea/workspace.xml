@@ -21,10 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="ff504a2f-8e5a-4a14-85d4-e4bd918a6eb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cpp/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/cpp/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_playground/ustc_py/a.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/ustc_py/a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_playground/ustc_py/py_ustc2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/ustc_py/py_ustc2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/xc_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/xc_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_playground/sci_calc/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_playground/sci_calc/my_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc/my_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc/sci_calc1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc/sci_calc2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc/sci_calc3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc/sci_calc4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc/sci_calc5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_playground/sci_calc/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_playground/sci_calc/sci_calc/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,28 +67,7 @@
       <recent name="G:\code_repo\fun\kiruen_funbox\funalgo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.xc_01">
-    <configuration name="hm_2_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="funalgo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/java" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="G:\code_repo\fun\kiruen_funbox\funalgo\python\hm_2_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.xc_02">
     <configuration name="hm_2_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="funalgo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,6 +152,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="xc_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="funalgo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/xc_02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="xh_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="funalgo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xc_02" />
         <item itemvalue="Python.xc_01" />
         <item itemvalue="Python.xh_02" />
         <item itemvalue="Python.leetcode (1)" />
         <item itemvalue="Python.leetcode" />
-        <item itemvalue="Python.hm_2_2" />
       </list>
     </recent_temporary>
   </component>
@@ -234,34 +239,34 @@
     </state>
     <state width="403" height="457" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1602767361914" />
     <state width="1020" height="477" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1604823511953" />
-    <state width="1259" height="126" key="GridCell.Tab.0.bottom" timestamp="1605692131380">
+    <state width="1259" height="126" key="GridCell.Tab.0.bottom" timestamp="1606578910789">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="126" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605692131380" />
+    <state width="1259" height="126" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606578910789" />
     <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1579" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603981848346" />
     <state width="1579" height="209" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605517297140" />
-    <state width="1259" height="126" key="GridCell.Tab.0.center" timestamp="1605692131380">
+    <state width="1259" height="126" key="GridCell.Tab.0.center" timestamp="1606578910788">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="126" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605692131380" />
+    <state width="1259" height="126" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606578910788" />
     <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1579" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603981848345" />
     <state width="1579" height="209" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605517297140" />
-    <state width="1259" height="126" key="GridCell.Tab.0.left" timestamp="1605692131380">
+    <state width="1259" height="126" key="GridCell.Tab.0.left" timestamp="1606578910788">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="126" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605692131380" />
+    <state width="1259" height="126" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606578910788" />
     <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1579" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603981848343" />
     <state width="1579" height="209" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605517297140" />
-    <state width="1259" height="126" key="GridCell.Tab.0.right" timestamp="1605692131380">
+    <state width="1259" height="126" key="GridCell.Tab.0.right" timestamp="1606578910789">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="126" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605692131380" />
+    <state width="1259" height="126" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606578910789" />
     <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1579" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603981848346" />
@@ -302,10 +307,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="359" y="168" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.860@0.0.1600.860" timestamp="1605413742128" />
-    <state x="359" y="119" width="672" height="560" key="search.everywhere.popup" timestamp="1605690833252">
+    <state x="359" y="119" width="672" height="560" key="search.everywhere.popup" timestamp="1606578052694">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="359" y="119" width="672" height="560" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605690833252" />
+    <state x="359" y="119" width="672" height="560" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606578052694" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602758973395" />
     <state x="449" y="151" width="700" height="708" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1605412815807" />
   </component>

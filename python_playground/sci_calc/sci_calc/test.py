@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import MagicMock
 from unittest.mock import patch
-import my_module
+from sci_calc import my_module
 
 
 class A(unittest.TestCase):
