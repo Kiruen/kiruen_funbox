@@ -53,5 +53,10 @@ int main(int argc, char const *argv[])
               return *(int *)a - *(int *)b;
           });
     print_arr(arr, sizeof(arr) / sizeof(int));
+
+    int v = 1;
+    if (v == 1)
+        int x = 2;
+    printf(x);
     return 0;
 }
