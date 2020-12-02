@@ -40,7 +40,27 @@ def wait_for_next_warmer_day(arr):
     return res
 
 
+def findTargetSumWays(nums: list, S: int) -> int:
+    queue = []
+    res = 0
+    def trace_back(i, acc, target):
+        if i >= len(nums):
+            if acc == target:
+                nonlocal res
+                res += 1
+            return
+        # queue.append(num)
+        trace_back(i + 1, acc + nums[i], target)
+        # queue.pop()
+        # queue.append(-num)
+        trace_back(i + 1, acc - nums[i], target)
+        # queue.pop()
+    trace_back(0, 0, S)
+    return res
+
+
 if __name__ == '__main__':
     print(next_greater_element([2, 1, 2, 4, 3]))
     print(wait_for_next_warmer_day([73, 74, 75, 71, 69, 72, 76, 73]))
     print(next_greater_element_in_loop([2, 1, 2, 4, 3]))
+    print(findTargetSumWays([1,1,1,1,1], 3))

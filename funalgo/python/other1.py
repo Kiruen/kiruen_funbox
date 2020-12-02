@@ -1,12 +1,32 @@
 from collections import deque
 
 
+class Node:
+    def __init__(self, val: int = 0, left: 'Node' = None, right: 'Node' = None, next: 'Node' = None):
+        self.val = val
+        self.left = left
+        self.right = right
+        self.next = next
+
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
+
+
+def connect(root: 'Node') -> 'Node':
+    if not root: return root
+    if root.left:
+        root.left.next = root.right
+        connect(root.left)
+    if root.right:
+        if root.next:
+            root.right.next = root.next.left
+        connect(root.right)
+    return root
 
 
 class Solution:
@@ -66,6 +86,49 @@ class Solution:
             return 1 + self.count_nodes_of_comp_tree(root.left) \
                    + self.count_nodes_of_comp_tree(root.right)
 
+    def find_duplicate_subtrees(root: TreeNode):
+        map = {}
+        res = []
+
+        def traverse(node: TreeNode):
+            if not node: return "#"
+            me = f"{traverse(node.left)},{traverse(node.right)},{node.val}"
+            if me not in map:
+                map[me] = node
+            # map[me] += 1
+            elif map[me]:
+                res.append(node)
+                map[me] = None
+            return me
+
+        traverse(root)
+        return res
+
+    def invertTree(self, root: TreeNode) -> TreeNode:
+        if not root: return None
+        left = self.invertTree(root.left)
+        right = self.invertTree(root.right)
+        root.left = right
+        root.right = left
+        return root
+
+    def flatten(self, root: TreeNode) -> None:
+        """
+        Do not return anything, modify root in-place instead.
+        """
+        if not root: return
+        rfirst = root.right
+        llast = root.left
+        self.flatten(root.left)
+        self.flatten(root.right)
+        while llast and llast.right:
+            llast = llast.right
+        if llast:
+            root.right = root.left
+            root.left = None
+            llast.right = rfirst
+            llast.left = None
+
 
 def test1():
     n1 = TreeNode(1)
@@ -98,3 +161,4 @@ if __name__ == '__main__':
     n1.left = n3
     n1.right = n2
     print(Solution().count_nodes_of_comp_tree(n1))
+
