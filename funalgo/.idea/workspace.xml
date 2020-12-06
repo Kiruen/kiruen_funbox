@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ff504a2f-8e5a-4a14-85d4-e4bd918a6eb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/other1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/other1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/labuladon_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/labuladon_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/other2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/other2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,15 +52,36 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\code_repo\fun\kiruen_funbox\funalgo\python" />
-      <recent name="G:\code_repo\fun\kiruen_funbox\funalgo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\code_repo\fun\kiruen_funbox\funalgo" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\code_repo\fun\kiruen_funbox\funalgo" />
+      <recent name="G:\code_repo\fun\kiruen_funbox\funalgo\python" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.other2">
+  <component name="RunManager" selected="Python.452">
+    <configuration name="452" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="funalgo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/452.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="labuladon_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="funalgo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="labuladon_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="labuladon_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="funalgo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,28 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="G:\code_repo\fun\kiruen_funbox\funalgo\python\labuladon_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="nk_primer5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="funalgo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/nk_primer5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/labuladon_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.452" />
+        <item itemvalue="Python.labuladon_2" />
         <item itemvalue="Python.other2" />
         <item itemvalue="Python.other1" />
         <item itemvalue="Python.labuladon_1 (1)" />
-        <item itemvalue="Python.nk_primer5" />
-        <item itemvalue="Python.labuladon_1" />
       </list>
     </recent_temporary>
   </component>
@@ -212,63 +212,63 @@
     <state width="816" height="378" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1606833073744" />
     <state width="403" height="457" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1602767361914" />
     <state width="1020" height="477" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1604823511953" />
-    <state width="1259" height="130" key="GridCell.Tab.0.bottom" timestamp="1606923731023">
+    <state width="1259" height="164" key="GridCell.Tab.0.bottom" timestamp="1607270239631">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="130" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606923731023" />
+    <state width="1259" height="164" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607270239631" />
     <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1579" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603981848346" />
     <state width="1579" height="209" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605517297140" />
-    <state width="1259" height="130" key="GridCell.Tab.0.center" timestamp="1606923731023">
+    <state width="1259" height="164" key="GridCell.Tab.0.center" timestamp="1607270239631">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="130" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606923731023" />
+    <state width="1259" height="164" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607270239631" />
     <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1579" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603981848345" />
     <state width="1579" height="209" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605517297140" />
-    <state width="1259" height="130" key="GridCell.Tab.0.left" timestamp="1606923731023">
+    <state width="1259" height="164" key="GridCell.Tab.0.left" timestamp="1607270239630">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="130" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606923731023" />
+    <state width="1259" height="164" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607270239630" />
     <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1579" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603981848343" />
     <state width="1579" height="209" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605517297140" />
-    <state width="1259" height="130" key="GridCell.Tab.0.right" timestamp="1606923731023">
+    <state width="1259" height="164" key="GridCell.Tab.0.right" timestamp="1607270239631">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="130" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606923731023" />
+    <state width="1259" height="164" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607270239631" />
     <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1515" height="173" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.962.768@0.0.1536.824" timestamp="1602403375176" />
     <state width="1579" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603981848346" />
     <state width="1579" height="209" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605517297140" />
-    <state width="1259" height="152" key="GridCell.Tab.1.bottom" timestamp="1606833266227">
+    <state width="1259" height="152" key="GridCell.Tab.1.bottom" timestamp="1607003973645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="152" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606833266227" />
+    <state width="1259" height="152" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607003973645" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1579" height="209" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603981848346" />
     <state width="1579" height="209" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605517297140" />
-    <state width="1259" height="152" key="GridCell.Tab.1.center" timestamp="1606833266227">
+    <state width="1259" height="152" key="GridCell.Tab.1.center" timestamp="1607003973645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="152" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1606833266227" />
+    <state width="1259" height="152" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1607003973645" />
     <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1579" height="209" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603981848346" />
     <state width="1579" height="209" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1605517297140" />
-    <state width="1259" height="152" key="GridCell.Tab.1.left" timestamp="1606833266227">
+    <state width="1259" height="152" key="GridCell.Tab.1.left" timestamp="1607003973645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="152" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1606833266227" />
+    <state width="1259" height="152" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1607003973645" />
     <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1579" height="209" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603981848346" />
     <state width="1579" height="209" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1605517297140" />
-    <state width="1259" height="152" key="GridCell.Tab.1.right" timestamp="1606833266227">
+    <state width="1259" height="152" key="GridCell.Tab.1.right" timestamp="1607003973645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="152" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1606833266227" />
+    <state width="1259" height="152" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1607003973645" />
     <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1024.728@0.0.1536.824" timestamp="1602404433394" />
     <state width="1579" height="209" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603981848346" />
     <state width="1579" height="209" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1605517297140" />
@@ -276,14 +276,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602314941672" />
+    <state x="77" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607269214153">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="77" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1607269214153" />
     <state x="359" y="168" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605413742128">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="359" y="168" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.860@0.0.1600.860" timestamp="1605413742128" />
-    <state x="359" y="119" width="672" height="560" key="search.everywhere.popup" timestamp="1606834727222">
+    <state x="359" y="119" width="672" height="560" key="search.everywhere.popup" timestamp="1607142700835">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="359" y="119" width="672" height="560" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606834727222" />
+    <state x="359" y="119" width="672" height="560" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1607142700835" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602758973395" />
     <state x="449" y="151" width="700" height="708" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1605412815807" />
   </component>
@@ -320,11 +324,6 @@
           <url>file://$PROJECT_DIR$/python/other1.py</url>
           <line>69</line>
           <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/python/other2.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
