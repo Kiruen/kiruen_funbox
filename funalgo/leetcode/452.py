@@ -6,9 +6,11 @@ def removeCoveredIntervals(intvs: list):
     for intv in intvs[1:]:
         if cur_intv[1] >= intv[1]:
             rest -= 1
+        else:
             cur_intv = intv
     return rest
 
 
 if __name__ == '__main__':
     print(removeCoveredIntervals([(1, 4), (3, 6), (2, 8)]))
+    print(removeCoveredIntervals([[1, 4], [3, 6], [2, 8]]))
